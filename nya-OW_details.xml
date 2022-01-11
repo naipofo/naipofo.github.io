@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<updates>
+  <update>
+    <name>Joomla! 4 - Owowasty</name>
+    <description>This is the Best Language Pack for Joomla! 4.0.2</description>
+    <element>pkg_nya-OW</element>
+    <type>package</type>
+    <version>4.0.2.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip">https://downloads.joomla.org/language-packs/translations-joomla4/downloads/joomla4-arabic-unitag/4-0-2-1/ar-aa_joomla_lang_full_4-0-2v1-zip?format=zip</downloadurl>
+    </downloads>
+    <sha256>42c6e1ccae7dd2f5af9c4bdea0ec53b54261a0f548105b4802ae6064a66ca70f</sha256>
+    <sha384>3ea337757629a85b7ee1d389fa751abbdeb8fbf1fe0edd4c07e64e79325e3df02fc341a2f1c24f4181a059b25728cb6a</sha384>
+    <sha512>3538b6e2dc6802763e9ecbe7d170e61cc654e5379404ebbc5c63048b1b4114850dc619ac9ee3c0aaba5294e2da964ad908dc6bb896c83f73afb70031650052e7</sha512>
+    <targetplatform name="joomla" version="4.[01]"/>
+  </update>
+</updates>
