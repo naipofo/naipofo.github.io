@@ -1,0 +1,93 @@
+body {
+    color-scheme: dark;
+    margin-top: 1rem;
+    margin-left: 3vw;
+    margin-right: 4vw;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+
+    background-color: black;
+}
+
+header,
+main {
+    margin: 0 auto;
+}
+
+header>h1 {
+    filter: url("#sp1");
+    font: min(20vw, 6rem) "Times New Roman", serif;
+    margin: 0;
+    margin-top: 2rem;
+}
+
+.socials {
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+    font: 1.1rem Consolas, monospace;
+    display: flex;
+}
+
+.socials>li>a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff3;
+    margin-left: 20px;
+    padding: 16px;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    text-decoration: none;
+    transition: transform .3s, box-shadow .3s;
+}
+
+.socials>li>a:hover {
+    transform: translate(0, -5px);
+    box-shadow: 0 5px #fff2;
+}
+
+.socials>li>a:active {
+    transform: translate(0, -3px);
+    box-shadow: 0 3px #fff2, 0 3px 30px #fff3;
+    filter: url("#sp1");
+}
+
+.socials>li>a>span {
+    color: #fffe;
+}
+
+.socials>li>a>img {
+    width: 46px;
+    height: 46px;
+    filter: invert(.9375);
+}
+
+.phonescreen {
+    border-image: url(./res/phone-frame.svg);
+    border-style: solid;
+    border-image-width: 27px 42px 27px 43px;
+    border-image-outset: 27px 42px 27px 43px;
+    border-image-slice: 37 51 37 53 fill;
+    border-image-repeat: repeat;
+    width: 300px;
+    height: 120px;
+    overflow: hidden;
+    padding: 27px 50px 27px 43px;
+    margin: 5rem;
+    font-family: 'Cutive Mono', monospace;
+    color: #242815;
+    word-break: break-all;
+    padding: .8rem;
+    border-radius: 3px;
+}
+
+footer {
+    opacity: .4;
+    margin-top: auto;
+    padding: 1rem;
+}
