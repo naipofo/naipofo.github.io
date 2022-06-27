@@ -1,0 +1,21 @@
++++
+title = "NaiPofo ✿"
++++
+
+<h1>NaiPofo</h1>
+
+<div id="main-socials">
+  <% data.socials.links.each do |e| %>
+    <% link_to e.href do %>
+      <%= image_tag e.icon %>
+      <div class="label">
+        <span>@<%= e.nick %></span>
+        <span><%= e.name %></span>
+      </div>
+    <% end %>
+  <% end %>
+</div>
+
+<div class="phonescreen">
+  ----hello----<br>this site is not done yet, please check it out later!
+</div>

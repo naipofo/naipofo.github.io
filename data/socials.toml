@@ -1,0 +1,11 @@
+[[links]]
+name = "Telegram"
+href = "https://t.me/aintmynamae"
+icon = "res/telegram.svg"
+nick = "anintmynamae"
+
+[[links]]
+name = "Github"
+href = "https://github.com/naipofo"
+icon = "res/github.svg"
+nick = "naipofo"
