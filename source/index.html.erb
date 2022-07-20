@@ -9,8 +9,8 @@ title = "NaiPofo ✿"
     <% link_to e.href do %>
       <%= image_tag e.icon %>
       <div class="label">
-        <span>@<%= e.nick %></span>
-        <span><%= e.name %></span>
+        <span class="nick"><%= e.nick %></span>
+        <span class="name"><%= e.name %></span>
       </div>
     <% end %>
   <% end %>

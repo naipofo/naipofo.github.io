@@ -2,10 +2,16 @@
 name = "Telegram"
 href = "https://t.me/aintmynamae"
 icon = "res/telegram.svg"
-nick = "anintmynamae"
+nick = "@anintmynamae"
 
 [[links]]
 name = "Github"
 href = "https://github.com/naipofo"
 icon = "res/github.svg"
-nick = "naipofo"
+nick = "@naipofo"
+
+[[links]]
+name = "Email"
+href = "mailto:athenaheki@gmail.com"
+icon = "res/email.svg"
+nick = "athenaheki@gmail.com"
